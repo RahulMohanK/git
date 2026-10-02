@@ -686,6 +686,7 @@ static struct cmd_struct commands[] = {
 #endif
 	{ "worktree", cmd_worktree, RUN_SETUP },
 	{ "write-tree", cmd_write_tree, RUN_SETUP },
+	{ "retro", cmd_retro, RUN_SETUP},
 };
 
 static struct cmd_struct *get_builtin(const char *s)
